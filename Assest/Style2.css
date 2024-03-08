@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+.mainBody {
+    margin: 30px 90px;
+    display: grid;
+    gap: 50px; 
+   
+   
+    
+}
+.PageWidth{
+    max-width:1350px;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 89px;
+}
+
+.header > .mainMenu > ul {
+    display:flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header > .mainMenu > ul > li {
+    list-style: none;
+}
+
+.header > .mainMenu > ul > li > a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(101, 99, 99);
+    font-weight: 500;
+}
+
+.logodiv > img {max-width: 150px;} 
+
+.topbutton > a > button{
+    color: white;
+    background:#b68c5a;
+    height: 40px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+
+
+
+.mainBody > .bannerPanel{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+    height: 400px;
+    background-image: url("Pics/images/banner.png");
+    background-repeat: no-repeat;
+    padding: 48px 18%;
+    background-size: 100% 450px;
+}
+
+.mainBody > .bannerPanel > h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    max-width: 631px;
+}
+
+.mainBody > .bannerPanel > p {
+    text-align: center;
+    padding: 0 5%;
+}
+.mainBody > .bannerPanel > .search-container {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 5%;
+}
+.mainBody > .bannerPanel > .search-container > input{
+    height: 45px;
+    width: 70%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.mainBody > .bannerPanel > .search-container > button {
+    height: 45px;
+    width: 20%; 
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background:#b68c5a;
+    font-weight: 600;
+} 
+
+/*grid css starts */
+.gridPanel.PageWidth> .gridtitlePanel > h1  {
+    display: grid;
+    justify-content: center;
+    color: #414040;
+    font-weight: bold;
+}
+.gridPanel.PageWidth> .gridtitlePanel > p {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20%;
+    color: rgb(65, 64, 64);
+}
+
+
+.gridElement {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    padding: 95px 50px 90px;
+}
+.gridPanel > .gridElement > .gridBody{
+    display:grid;
+    gap: 15px;
+    color:#414040;
+    justify-items: center;
+    padding: 50px 50px;
+    
+}
+
+.gridPanel > .gridElement > .gridBody > p {
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+.gridbody1, .gridbody2, .gridbody3{
+    border-bottom:1px solid #c0bcbc;
+}
+.gridbody1, .gridbody2, .gridbody4, .gridbody5 {
+    border-right:1px solid #c0bcbc; 
+}
+
+.gridBody.gridbody1:hover,
+.gridBody.gridbody2:hover,
+.gridBody.gridbody3:hover,
+.gridBody.gridbody4:hover,
+.gridBody.gridbody5:hover,
+.gridBody.gridbody6:hover{
+background: #ccc;
+}
+/*Sider Panel starts*/
+
+
+.sliderPanel > .SliderTitlePanel {
+    display: grid; 
+    gap: 10px;
+
+    
+}
+
+.sliderPanel > .SliderTitlePanel > h1  {
+    display: grid;
+    justify-content: center;
+    color: #414040;
+    font-weight: bold;
+}
+.sliderPanel > .SliderTitlePanel > p {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20%;
+    color: rgb(65, 64, 64);
+}
+
+.sliderPanel{
+    display:grid;
+    gap: 50px;
+    color: white;
+    text-align: center;
+    
+}
+
+.sliderPanel > .sliderBodyPanel {
+    display: flex;
+    background-image: url("Pics/images/slider-1.jpg");
+    background-repeat: no-repeat;
+    padding: 0px 90px 10px 90px;
+    background-size: 1107px;
+    background-position: 90px 12px;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.sliderPanel > .sliderBodyPanel >.sliderbodyContent {
+    display: grid;
+    gap: 15px; 
+    padding: 0 70px;
+    justify-items: center;
+}
+.sliderPanel > .sliderBodyPanel >.sliderbodyContent > img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.sliderPanel > .sliderBodyPanel >.sliderbodyContent > .nameanddes > h4 {
+    font-size: larger;
+}
+.sliderPanel > .sliderBodyPanel >.sliderbodyContent > .review {
+    font-size: small;
+    line-height: 12px;
+    line-height: 18px;
+}
+
+.sliderLeftArrow > a {
+    text-decoration: none;
+    color: white;
+}
+.sliderRightArrow > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*FAQ Panel starts */
+
+.faqPanel > .faqTitlePanel {
+    display: grid; 
+    gap: 10px;
+}
+.faqPanel {
+    display:grid;
+    gap: 50px;
+    padding: 0px 90px 10px 90px;
+}
+.faqPanel > .faqTitlePanel > h1  {
+    display: grid;
+    justify-content: center;
+    color: #414040;
+    font-weight: bold;
+}
+.faqPanel > .faqTitlePanel > p {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20%;
+    color: rgb(65, 64, 64);
+}
+.faqPanel > .faqbodypanel {
+    display:flex;
+    width:100%
+}
+
+.faqPanel > .faqbodypanel > .faqContentPanel {
+    width: 50%;
+    display:grid;
+    gap: 20px;
+    
+}
+.faqPanel > .faqbodypanel > .faqImagePanel {
+    width: 50%;
+}
+
+.faqPanel > .faqbodypanel > .faqImagePanel > img {
+    width: 100%;
+    height: auto;
+}
+
+.faqContentPanel > .faq {
+    display:flex;
+    background: #efefef;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #414040;
+}
+
+
+.faq > .minusicon > a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.faq1body {
+    display:grid;
+    gap: 10px;
+    padding-right: 40px;
+}
+.faqContentPanel > .faq1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+/*Contact panel starts*/
+.contactPanel > .contactTitlePanel {
+    display: grid; 
+    gap: 10px;
+
+    
+}
+.contactPanel{
+    padding: 0px 90px 10px 90px;
+}
+.contactPanel > .contactTitlePanel > h1  {
+    display: grid;
+    justify-content: center;
+    color: #414040;
+    font-weight: bold;
+}
+.contactPanel > .contactTitlePanel > p {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20%;
+    color: rgb(65, 64, 64); 
+}
+
+.contactPanel > .contactBodypanel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contactPanel > .contactBodypanel >.contactGridPanel {
+    display: grid;
+    width: 50%;
+    padding: 50px 15px;
+    grid-template-columns: 1fr 1fr;
+    
+   
+}
+
+.contactPanel > .contactBodypanel >.contactGridPanel > .contactGrid {
+    display: grid;
+    gap: 20px; 
+    justify-items: center;
+    text-align: center;
+    background: #f3f3f3;
+    padding: 30px;
+    color: rgb(65, 64, 64); 
+}
+
+.contactPanel > .contactBodypanel > .contactFormbody {
+    width: 50%;
+    padding: 50px 10px;
+}
+
+.contactFormbody > form {
+    display: flex;
+    flex-direction: column;
+    gap: 21px; 
+}
+
+.addressgrid, .contactgrid2 {
+    border-bottom: 1px solid #c0bcbc ;
+}
+.addressgrid, .emailgrid {
+    border-right: 1px solid #c0bcbc ;
+}
+
+.contactFormbody > .contactForm > input {
+    height: 60px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    border: none;
+    padding: 10px 15px;
+}
+
+
+
+.contactForm > .ContactFormBtn > button {
+    width: 100%;
+    min-height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b68c5a;
+    color: white;
+    font-weight: bolder;
+}
+/*footer starts*/
+.footer {
+    background-color: black;
+    color:white;
+    padding: 100px 15%;
+    
+}
+
+.footer > .footerbody {
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+    
+}
+
+.footer > .footerbody > .footerdiv {
+    width: 20%;
+    display: grid;
+    gap:20px;
+
+
+}
+
+.footerbody > .aboutus > img {
+    width: 100px;
+}
+
+.footerbody > .aboutus > p {
+    line-height: 20px;
+}
+
+.usfulURL > .footerNav >  ul > li {
+    list-style: none;
+    padding: 2px 10px;
+}
+.usfulURL > .footerNav >  ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+.subscribe > .footeremail {
+    display: flex;
+}
+
+.subscribe > .footeremail > input {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+.footeremail > a {
+    text-decoration: none;
+}
+.Submitbtn {
+    font-size: 12px;
+    background: #b68c5a;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
